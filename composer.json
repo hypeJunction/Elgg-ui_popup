@@ -1,0 +1,22 @@
+{
+	"name": "hypejunction/ui_popup",
+	"version": "1.0.0",
+	"type": "elgg-plugin",
+	"description": "Popup AMD module for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "ui", "popup"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "1.*"
+	}
+}
+
