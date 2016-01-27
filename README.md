@@ -19,7 +19,6 @@ This behaviour is identical to adding `rel="popup"` to your anchor element.
 echo elgg_view('output/url', array(
 	'class' => 'popup-trigger',
 	'href' => '#popup',
-	'rel' => 'popup',
 ));
 ```
 
