@@ -19,7 +19,7 @@ define(function (require) {
 			});
 
 			// Adding this magic so that popups with fixed position stick to their parent element
-			$(window).on('scroll', function() {
+			$(window).on('scroll resize', function() {
 				$('[data-popup]:visible').each(function() {
 					$(this).position($(this).data('position'));
 				});
